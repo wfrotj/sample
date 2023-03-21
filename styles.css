@@ -7,8 +7,9 @@
 .container-fluid {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  align-items: start;
+}
+.container-fluid a {
+  color: black;
 }
 main {
   display: flex;
@@ -30,9 +31,26 @@ main .content {
   padding: 1px;
   text-align: center;
   margin-right: 25px;
+  padding-right: 50px;
 }
+.content p {
+  display: flex;
+  justify-content: center;
+}
+
 .button .icon {
   background-color: white;
   padding: 1px;
   margin-left: 0;
+}
+.form {
+  margin-top: 100px;
+}
+
+aside .picture {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
 }
